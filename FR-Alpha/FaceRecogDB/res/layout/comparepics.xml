@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/fromCamera"
+        android:layout_width="132dp"
+        android:layout_height="132dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:id="@+id/remotebutton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/fromCamera"
+        android:layout_marginBottom="39dp"
+        android:layout_marginRight="15dp"
+        android:text="@string/upload" />
+
+    <TextView
+        android:id="@+id/camLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/remotebutton"
+        android:layout_alignRight="@+id/fromCamera"
+        android:gravity="center|center_vertical"
+        android:text="@string/noimagecam"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/fromCamera"
+        android:layout_marginBottom="40dp"
+        android:layout_toRightOf="@+id/fromCamera"
+        android:text="surname:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/surname"
+        android:layout_marginTop="20dp"
+        android:text="name:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/surname"
+        android:layout_below="@+id/surname"
+        android:text="id:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/name"
+        android:layout_alignBottom="@+id/name"
+        android:layout_marginLeft="60dp"
+        android:layout_toRightOf="@+id/name"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/surnameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/surname"
+        android:layout_alignBottom="@+id/surname"
+        android:layout_alignLeft="@+id/nameText"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/idText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/surnameText"
+        android:layout_alignTop="@+id/camLabel"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

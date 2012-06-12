@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, IdMainActivity!</string>
+    <string name="app_name">Face db Creator</string>
+    <string name="mainwindow">main window</string>
+    <string name="facecapture">Face Capture</string>
+	<string name="menu_Preferences">Preferences</string>
+	<string name="menu_AppMode">App Mode</string>
+	<string name="PreferencesDlgTitle">Set Level</string>
+	<string name="SnapFacePreference">SnapFacePreference</string>
+	<string name="SetPictureAsIntent_Name">set picture as</string>
+	<string name="SetPictureAsIntent_FailCreate">This picture cannot be set</string>
+	<string name="SDCardNotPresentAlert">Please make sure your SD Card is inserted.</string>
+	<string name="TapInstructionAlert">Tap detected face rect to capture.</string>
+	<string name="CapturingAlert">Capturing... hold still.</string>
+	<string name="SaveImageSuccessAlert">Image saved to:\n</string>
+	<string name="SaveImageFailureAlert">Image Capture Failed.</string>
+	
+	<string name="fingererror">Warning.</string>
+	<string name="fingererrormessage">Fingerprint scanner not found.</string>
+
+	<string name="nfcerror">Warning.</string>
+	<string name="nfcerrormessage">NFC reader not found.</string>
+		
+    <string name="imgview">Captured Image</string>
+	<string name="menu_SetAs">Set As</string>
+	<string name="menu_Undo">Undo</string>
+	<string name="delete_alert">The picture will be deleted</string>
+	<string name="delete_alert_ok">OK</string>
+	<string name="delete_alert_cancel">Cancel</string>
+	
+	<string name="GoogleAnalyticsUA">>UA-YOUR-ACCOUNT-HERE</string>
+	<string name="taptoload">Tap to load</string>
+	
+	<string name="GA_CAT_SYS">System Event</string>
+	<string name="GA_CAT_ACT">Action Event</string>
+	<string name="noimagecam">Tap to capture</string>
+	<string name="noimagenfc">Tap to scan</string>
+	<string name="remotematch">Remote Match</string>
+	<string name="upload">Upload</string>
+	<string name="GA_ACT_FDETMODE">Change FdetMode</string>
+	<string name="GA_ACT_APPMODE">Change AppMode</string>
+	<string name="GA_ACT_START">Start</string>
+	<string name="GA_ACT_PAUSE">Pause</string>
+	<string name="GA_ACT_STOP">Stop</string>
+	<string name="GA_ACT_GET_CONTENT">GET_CONTENT</string>
+	<string name="GA_ACT_PICTURESAVE">Save Picture</string>
+
+	<string name="GA_LBL_CLICKED">Clicked</string>
+	<string name="GA_LBL_SUCCEED">Succeed</string>
+	<string name="GA_LBL_CANCEL">Cancel</string>
+
+	<string name="loginstring">Login</string>
+	<string name="password">password</string>
+	<string name="username">username</string>
+	<string name="loginerror">Error</string>
+	<string name="loginerrormessage">Wrong username or password</string>
+	
+	<string name="comparepics">Compare</string>
+	<string name="frresult">results.</string>
+	<string name="frmatch">match %:</string>
+	<string name="frname">name:</string>
+	
+	<string name="settings_label">Settings</string>
+	<string name="settings_title">Settings</string>
+	<string name="wscategory">WS Settings</string>
+	<string name="editwsurl">WebService URL</string>
+	<string name="wsurl">WebService URL</string>
+	<string name="hints_title">Hints</string>
+	<string name="hints_summary">Show hints during play</string>
+	
+	
+</resources>

@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="73dp"
+        android:background="@drawable/camerabutton" />
+
+    <Button
+        android:id="@+id/comparebutton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/camera"
+        android:layout_alignBottom="@+id/camera"
+        android:layout_marginLeft="104dp"
+        android:layout_toRightOf="@+id/camera"
+        android:background="@drawable/camerabutton" />
+
+    <Button
+        android:id="@+id/control"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBaseline="@+id/comparebutton"
+        android:layout_alignBottom="@+id/comparebutton"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/camerabutton" />
+
+</RelativeLayout>
