@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" version="2.4">
+  <servlet>
+    <servlet-name>Recog</servlet-name>
+    <servlet-class>jrc.ipsc.surcit.Recog</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Recog</servlet-name>
+    <url-pattern>/recog</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>FaceUploadWS</servlet-name>
+    <servlet-class>jrc.ipsc.surcit.FaceUploadWS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FaceUploadWS</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DBWS</servlet-name>
+    <servlet-class>jrc.ipsc.surcit.DBWS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DBWS</servlet-name>
+    <url-pattern>/DBWS</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>ControlRoomWS</servlet-name>
+    <servlet-class>jrc.ipsc.surcit.ControlRoomWS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ControlRoomWS</servlet-name>
+    <url-pattern>/ControlRoomWS</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>FaceRecogWS</servlet-name>
+    <servlet-class>jrc.ipsc.surcit.FaceRecogWS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FaceRecogWS</servlet-name>
+    <url-pattern>/FaceRecogWS</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
