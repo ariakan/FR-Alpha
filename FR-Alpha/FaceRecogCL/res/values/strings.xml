@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FaceRecogCLActivity!</string>
+    <string name="app_name">FaceRecogCL</string>
+    
+    <string name="editwsurl">WebService URL</string>
+    <string name="wscategory">WS Settings</string>
+    
+	<string name="settings_label">Settings</string>
+	<string name="settings_title">Settings</string>
+	
+	<string name="SDCardNotPresentAlert">Please make sure your SD Card is inserted.</string>
+	<string name="TapInstructionAlert">Tap detected face rect to capture.</string>
+	<string name="CapturingAlert">Capturing... hold still.</string>
+	<string name="SaveImageSuccessAlert">Image saved to:\n</string>
+	<string name="SaveImageFailureAlert">Image Capture Failed.</string>
+	
+	<string name="noimagecam">Tap to capture</string>
+	<string name="noimagenfc">Tap to scan</string>
+	<string name="remotematch">Remote Match</string>
+	<string name="localmatch">Local Match</string>
+	
+	<string name="frresult">results.</string>
+	<string name="frmatch">match %:</string>
+	<string name="frname">name:</string>
+	
+	<string name="nfcerror">Warning.</string>
+	<string name="nfcerrormessage">NFC reader not found.</string>
+	
+	<string name="SnapFacePreference">SnapFacePreference</string>
+	
+	<string name="comparepics">Compare</string>
+</resources>
